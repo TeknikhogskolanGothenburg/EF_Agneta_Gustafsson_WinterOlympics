@@ -91,7 +91,7 @@ namespace OlympicApp.Data
             // * Referee, insåg när jag testade att det borde funnits en FK till Sport, för att hindra koppling av en obehörig domare. 
            // Försökte migrera in dessa ändringar, genom att lägga till SportID i Match resp Referee, men fick hela tiden felmeddelande, ungefär som
            // meddelandet jag klippte in på rad 82. Förstod inte vad den klagade på och varför det skulle vara ett hinder.
-          
+          //
         }
 
         public static readonly LoggerFactory OlympicLoggerFactory =
