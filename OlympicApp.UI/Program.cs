@@ -16,8 +16,8 @@ namespace OlympicApp.UI
         //ny version istället, för att få det så rätt som möjligt från början.
         //I valet mellan Threading och Async, valde jag Async, för att jag bara använt anropen till att hämta befintlig data - inte för att göra 
         //processorintensiva beräkningar.
-        //I valet mellan LINQ to Enities och Entity SQL, valde jag Entity SQL. Tyckte att urvalsfunktionerna var bättre i denna.
-        //Det finns därför inga Threadings- och Linq-exempel i denna kod. Om du hade önskat detta får du sätta det som komplettering, så gör jag det
+        //I valet mellan LINQ to Enities och Entity SQL, valde jag LINQ to Enities. Tyckte att urvalsfunktionerna var bättre i denna.
+        //Det finns därför inga Threadings- och Entity SQL i denna kod. Om du hade önskat detta får du sätta det som komplettering, så gör jag det
         //i efterhand.
         //Jag valde att använda Generic repositories, som du visade på en av föreläsningarna. Funkade väldigt bra när allt väl var satt. Väldigt smidigt.
         //Dock stod det inte klart för mig vad jag gjorde när jag satte upp det, skrev mest av. Nu när jag använt det förstår jag mer hur och varför det 
