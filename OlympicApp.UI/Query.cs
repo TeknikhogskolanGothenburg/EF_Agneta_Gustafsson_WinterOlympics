@@ -30,7 +30,7 @@ namespace OlympicApp.UI
             }
         }
 
-        internal static void StatisticsForEachSport() //KLAR
+        internal static void StatisticsForEachSport() //KLART
         {
             var cRep = new SportRepository();
             var stats = cRep.SportStatisticsAsync();
