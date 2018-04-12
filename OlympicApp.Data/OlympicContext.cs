@@ -86,7 +86,7 @@ namespace OlympicApp.Data
             base.OnModelCreating(modelBuilder);
 
 
-            //Brister i databasen:
+            //Brister i databasen::
             // * Upptäckte att inget hindrade att koppla en curlingmatch med en ishockeyspelare.
             // * Referee, insåg när jag testade att det borde funnits en FK till Sport, för att hindra koppling av en obehörig domare. 
            // Försökte migrera in dessa ändringar, genom att lägga till SportID i Match resp Referee, men fick hela tiden felmeddelande, ungefär som
